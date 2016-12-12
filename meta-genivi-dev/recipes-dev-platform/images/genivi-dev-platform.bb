@@ -46,3 +46,9 @@ IMAGE_INSTALL_append_rpi = " \
 	packagegroup-base \
 	mesa-megadriver \
 "
+
+IMAGE_INSTALL_append = " \
+    iotivity-node \
+    nodejs \
+    nodejs-npm \
+"
