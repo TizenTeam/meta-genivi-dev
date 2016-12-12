@@ -52,3 +52,8 @@ IMAGE_INSTALL_append = " \
     nodejs \
     nodejs-npm \
 "
+
+IMAGE_INSTALL_append = " \
+   iotivity-example \
+   screen \
+"
