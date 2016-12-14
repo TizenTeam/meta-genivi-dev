@@ -57,3 +57,6 @@ IMAGE_INSTALL_append = " \
    iotivity-example \
    screen \
 "
+
+IMAGE_INSTALL_append = " git "
+
